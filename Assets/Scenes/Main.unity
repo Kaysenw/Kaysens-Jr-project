@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1744198, g: 0.21814081, b: 0.30037558, a: 1}
+  m_IndirectSpecularColor: {r: 0.17441958, g: 0.21814045, b: 0.3003748, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1565,6 +1565,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 96f8402ad64f6864baee4099c68c7f24, type: 3}
   m_PrefabInstance: {fileID: 604271679}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1233065501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4755593536528632546, guid: 16dd4f9b087d73f4096a0216d9dab6ab, type: 3}
+  m_PrefabInstance: {fileID: 2060337871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1233065502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233065501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbcade0817ed59e4288c2e528d44e713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 3
+  ProductivityMultiplier: 2
 --- !u!1001 &1494287445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2227,7 +2246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4755593536528632556, guid: 16dd4f9b087d73f4096a0216d9dab6ab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.11
+      value: 1.095
       objectReference: {fileID: 0}
     - target: {fileID: 4755593536528632556, guid: 16dd4f9b087d73f4096a0216d9dab6ab, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2264,7 +2283,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4755593536528632546, guid: 16dd4f9b087d73f4096a0216d9dab6ab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1233065502}
   m_SourcePrefab: {fileID: 100100000, guid: 16dd4f9b087d73f4096a0216d9dab6ab, type: 3}
 --- !u!1001 &2091173232
 PrefabInstance:
